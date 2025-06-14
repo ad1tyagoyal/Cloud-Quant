@@ -39,8 +39,8 @@ CloudQuant is a fully serverless stock market data pipeline built using **AWS CD
 
 ### 2. 🧱 Create a Virtual Environment
 
-`python -m venv .venv
-.venv\Scripts\activate`
+`python -m venv .venv`
+`.venv\Scripts\activate`
 
 ### 3. 📦 Install Python Dependencies
 
