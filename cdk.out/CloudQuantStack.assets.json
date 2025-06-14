@@ -1,0 +1,20 @@
+{
+  "version": "44.0.0",
+  "files": {
+    "a1b2ff20495f2f38bbb26389fe62253efc66c235a9f67d7950a7327a33b98dbd": {
+      "displayName": "CloudQuantStack Template",
+      "source": {
+        "path": "CloudQuantStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "a1b2ff20495f2f38bbb26389fe62253efc66c235a9f67d7950a7327a33b98dbd.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
