@@ -1,7 +1,7 @@
 {
   "version": "44.0.0",
   "files": {
-    "a1b2ff20495f2f38bbb26389fe62253efc66c235a9f67d7950a7327a33b98dbd": {
+    "86c17292bd6d116f7176ef5808ba584b130779bf9512ea0c09080d50d988e6dd": {
       "displayName": "CloudQuantStack Template",
       "source": {
         "path": "CloudQuantStack.template.json",
@@ -10,7 +10,7 @@
       "destinations": {
         "current_account-current_region": {
           "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
-          "objectKey": "a1b2ff20495f2f38bbb26389fe62253efc66c235a9f67d7950a7327a33b98dbd.json",
+          "objectKey": "86c17292bd6d116f7176ef5808ba584b130779bf9512ea0c09080d50d988e6dd.json",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
         }
       }
