@@ -18,7 +18,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/a1b2ff20495f2f38bbb26389fe62253efc66c235a9f67d7950a7327a33b98dbd.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/86c17292bd6d116f7176ef5808ba584b130779bf9512ea0c09080d50d988e6dd.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -34,6 +34,12 @@
         "CloudQuantStack.assets"
       ],
       "metadata": {
+        "/CloudQuantStack/RawNifty50DataBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RawNifty50DataBucket0B2A18B1"
+          }
+        ],
         "/CloudQuantStack/CDKMetadata/Default": [
           {
             "type": "aws:cdk:logicalId",

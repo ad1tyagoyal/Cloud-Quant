@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import aws_cdk as cdk
 
-from infra.lib.cloud_quant_stack import CloudQuantStack
+from infra.stacks.cloud_quant_stack import CloudQuantStack
 
 
 app = cdk.App()
