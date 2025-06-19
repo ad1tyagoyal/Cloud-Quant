@@ -15,6 +15,8 @@ deploy:
 
 destroy:
 	cdk destroy -a "$(PYTHON) -m $(CDK_APP)"
+diff:
+	cdk diff -a "$(PYTHON) -m $(CDK_APP)"
 
 test:
 	pytest tests/ acceptance/
