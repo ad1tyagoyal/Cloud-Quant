@@ -7,8 +7,8 @@ from constructs import Construct
 
 class CloudQuantStack(Stack):
 
-    def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None: # type: ignore
-        super().__init__(scope, construct_id, **kwargs) # type: ignore
+    def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None: 
+        super().__init__(scope, construct_id, **kwargs) 
         
         self.raw_s3_bucket = s3.Bucket(
             self, "RawNifty50DataBucket",

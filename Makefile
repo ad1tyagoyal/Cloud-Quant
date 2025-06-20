@@ -26,3 +26,9 @@ lint:
 
 docker-shell:
 	docker exec -it cloudquant-dev bash
+
+install-dep:
+	pip install -r requirements.txt
+
+install-dev-dep:
+	pip install -r requirements-dev.txt
